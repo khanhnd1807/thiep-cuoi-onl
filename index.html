@@ -13,6 +13,17 @@
   </head>
   <body class="bg-ivory text-espresso antialiased selection:bg-burgundy/15 selection:text-burgundy">
     <div id="root"></div>
+    <script>
+      if (
+        location.hostname.endsWith('github.io') &&
+        !document.querySelector('script[src*="assets/"]') &&
+        !location.pathname.includes('/docs/')
+      ) {
+        location.replace(
+          location.pathname.replace(/\/?$/, '/') + 'docs/' + location.search + location.hash
+        );
+      }
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
