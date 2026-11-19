@@ -5,9 +5,9 @@ export const WEDDING_DATE_ISO = '2026-12-20T11:00:00+07:00';
 export const COUPLE_INFO = {
   groom: {
     firstName: 'Ngọc Lâm',
-    fullName: 'Nguyễn Ngọc Lâm',
+    fullName: 'Đặng Ngọc Lâm',
     role: 'Út Nam',
-    father: 'Ông Nguyễn Văn Hùng',
+    father: 'Ông Đặng Văn Hùng',
     mother: 'Bà Trần Thị Lan Anh',
     address: 'Quận Tây Hồ, Hà Nội',
     bio: 'Chàng trai ấm áp yêu ánh nắng sớm, cà phê phin và nụ cười dịu dàng của Việt Dũng. Luôn tin rằng ngôi nhà đẹp nhất là nơi có người thương trở về.',
@@ -15,16 +15,16 @@ export const COUPLE_INFO = {
       'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=900&q=85',
     bank: {
       bankName: 'Vietcombank',
-      accountName: 'NGUYEN NGOC LAM',
+      accountName: 'DANG NGOC LAM',
       accountNumber: '1029 8866 2012',
       branch: 'Chi nhánh Tây Hồ, Hà Nội',
     },
   },
   bride: {
     firstName: 'Việt Dũng',
-    fullName: 'Lê Việt Dũng',
+    fullName: 'Nguyễn Việt Dũng',
     role: 'Trưởng Nữ',
-    father: 'Ông Lê Hoàng Nam',
+    father: 'Ông Nguyễn Hoàng Nam',
     mother: 'Bà Phạm Thu Hương',
     address: 'Quận Hoàn Kiếm, Hà Nội',
     bio: 'Yêu hoa linh lan, những bản nhạc acoustic dịu êm và những chuyến đi ngắn cuối tuần. Hạnh phúc lớn nhất là được cùng Ngọc Lâm viết tiếp chương mới.',
@@ -32,7 +32,7 @@ export const COUPLE_INFO = {
       'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=85',
     bank: {
       bankName: 'Techcombank',
-      accountName: 'LE VIET DUNG',
+      accountName: 'NGUYEN VIET DUNG',
       accountNumber: '1903 6688 2012',
       branch: 'Chi nhánh Hoàn Kiếm, Hà Nội',
     },
