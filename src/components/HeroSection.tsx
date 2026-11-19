@@ -69,7 +69,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ guest, onOpenGuestDraw
       >
         <img
           src={COUPLE_INFO.heroImage}
-          alt="Minh Quân & Thảo Linh"
+          alt="Ngọc Lâm & Việt Dũng"
           className="animate-ken-burns h-full w-full object-cover object-center"
         />
         <div

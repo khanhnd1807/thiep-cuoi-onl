@@ -4,40 +4,40 @@ export const WEDDING_DATE_ISO = '2026-12-20T11:00:00+07:00';
 
 export const COUPLE_INFO = {
   groom: {
-    firstName: 'Minh Quân',
-    fullName: 'Nguyễn Minh Quân',
+    firstName: 'Ngọc Lâm',
+    fullName: 'Nguyễn Ngọc Lâm',
     role: 'Út Nam',
     father: 'Ông Nguyễn Văn Hùng',
     mother: 'Bà Trần Thị Lan Anh',
     address: 'Quận Tây Hồ, Hà Nội',
-    bio: 'Một kiến trúc sư yêu ánh nắng sớm, cà phê phin và nụ cười dịu dàng của Thảo Linh. Luôn tin rằng ngôi nhà đẹp nhất là nơi có em trở về.',
+    bio: 'Chàng trai ấm áp yêu ánh nắng sớm, cà phê phin và nụ cười dịu dàng của Việt Dũng. Luôn tin rằng ngôi nhà đẹp nhất là nơi có người thương trở về.',
     portrait:
       'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=900&q=85',
     bank: {
       bankName: 'Vietcombank',
-      accountName: 'NGUYEN MINH QUAN',
+      accountName: 'NGUYEN NGOC LAM',
       accountNumber: '1029 8866 2012',
       branch: 'Chi nhánh Tây Hồ, Hà Nội',
     },
   },
   bride: {
-    firstName: 'Thảo Linh',
-    fullName: 'Lê Thảo Linh',
+    firstName: 'Việt Dũng',
+    fullName: 'Lê Việt Dũng',
     role: 'Trưởng Nữ',
     father: 'Ông Lê Hoàng Nam',
     mother: 'Bà Phạm Thu Hương',
     address: 'Quận Hoàn Kiếm, Hà Nội',
-    bio: 'Cô gái yêu hoa linh lan, những bản nhạc acoustic dịu êm và những chuyến đi ngắn cuối tuần. Hạnh phúc lớn nhất là được cùng Quân viết tiếp chương mới.',
+    bio: 'Yêu hoa linh lan, những bản nhạc acoustic dịu êm và những chuyến đi ngắn cuối tuần. Hạnh phúc lớn nhất là được cùng Ngọc Lâm viết tiếp chương mới.',
     portrait:
       'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=85',
     bank: {
       bankName: 'Techcombank',
-      accountName: 'LE THAO LINH',
+      accountName: 'LE VIET DUNG',
       accountNumber: '1903 6688 2012',
       branch: 'Chi nhánh Hoàn Kiếm, Hà Nội',
     },
   },
-  monogram: 'Q & L',
+  monogram: 'L & D',
   displayDate: '20 . 12 . 2026',
   fullVietnameseDate: 'Chủ Nhật, ngày 20 tháng 12 năm 2026',
   lunarDate: 'Nhằm ngày 12 tháng 11 năm Bính Ngọ',
@@ -76,10 +76,10 @@ export const LOVE_STORY: StoryMilestone[] = [
     id: 'story-3',
     date: 'Tháng 08, 2025',
     title: 'Lời Cầu Hôn Dưới Hoàng Hôn',
-    subtitle: '“Em đồng ý về chung một nhà nhé?”',
+    subtitle: '“Đồng ý về chung một nhà nhé?”',
     location: 'Bãi biển Phú Quốc',
     description:
-      'Khi mặt trời buông xuống sắc vàng mật ong trên mặt biển, Quân quỳ gối trao chiếc nhẫn nhỏ cùng lời hứa trọn đời. Nước mắt hạnh phúc hòa cùng tiếng sóng vỗ dịu êm.',
+      'Khi mặt trời buông xuống sắc vàng mật ong trên mặt biển, Ngọc Lâm trao chiếc nhẫn nhỏ cùng lời hứa trọn đời với Việt Dũng. Khoảnh khắc hạnh phúc hòa cùng tiếng sóng vỗ dịu êm.',
     image:
       'https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=1000&q=85',
   },
@@ -197,7 +197,7 @@ export const DEFAULT_GUESTS: Guest[] = [
     name: 'Lê Đức Anh',
     group: 'Đồng nghiệp',
     companion: '',
-    note: 'Cảm ơn đã luôn đồng hành cùng Quân trong công việc và cuộc sống.',
+    note: 'Cảm ơn đã luôn đồng hành cùng Ngọc Lâm trong công việc và cuộc sống.',
   },
   {
     id: 'guest-4',
@@ -225,7 +225,7 @@ export const DEFAULT_WISHES: Wish[] = [
     attending: 'yes',
     guestCount: 2,
     message:
-      'Chúc mừng Minh Quân & Thảo Linh trăm năm hạnh phúc! Cuối cùng đôi bạn vàng cũng về chung một nhà. Hẹn gặp hai em tại lễ đường rực rỡ nhất!',
+      'Chúc mừng Ngọc Lâm & Việt Dũng trăm năm hạnh phúc! Cuối cùng đôi bạn vàng cũng về chung một nhà. Hẹn gặp hai em tại lễ đường rực rỡ nhất!',
     createdAt: '2 giờ trước',
   },
   {
@@ -235,7 +235,7 @@ export const DEFAULT_WISHES: Wish[] = [
     attending: 'yes',
     guestCount: 3,
     message:
-      'Thiệp cưới đẹp xỉu luôn hai đứa ơi! Chúc cô dâu xinh đẹp nhất ngày hôm đó, chúc hai vợ chồng luôn yêu thương, thấu hiểu và sớm đón tin vui nhé!',
+      'Thiệp cưới đẹp xỉu luôn hai đứa ơi! Chúc cô dâu Việt Dũng và chú rể Ngọc Lâm luôn yêu thương, thấu hiểu và sớm đón tin vui nhé!',
     createdAt: '5 giờ trước',
   },
   {

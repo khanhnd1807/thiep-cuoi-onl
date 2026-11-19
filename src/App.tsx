@@ -22,7 +22,7 @@ import { Navbar } from './components/Navbar';
 import { RsvpWishesSection } from './components/RsvpWishesSection';
 
 const STORAGE_GUESTS_KEY = 'wedding_invitation_guests_v1';
-const STORAGE_WISHES_KEY = 'wedding_invitation_wishes_v1';
+const STORAGE_WISHES_KEY = 'wedding_invitation_wishes_v2';
 
 function loadStoredGuests(): Guest[] {
   try {
@@ -233,7 +233,7 @@ export default function App() {
           <div className="mt-10 flex items-center justify-center gap-2 text-[11px] text-champagne/55">
             <span>Made with</span>
             <Heart className="h-3 w-3 fill-burgundy-soft text-burgundy-soft" />
-            <span>for Minh Quân &amp; Thảo Linh</span>
+            <span>for Ngọc Lâm &amp; Việt Dũng</span>
           </div>
         </div>
       </footer>

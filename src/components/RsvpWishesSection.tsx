@@ -47,7 +47,7 @@ export const RsvpWishesSection: React.FC<RsvpWishesSectionProps> = ({
       guestCount: attending === 'yes' ? guestCount : 0,
       message:
         message.trim() ||
-        'Chúc mừng Minh Quân & Thảo Linh trăm năm hạnh phúc, luôn yêu thương và đồng hành bên nhau!',
+        'Chúc mừng Ngọc Lâm & Việt Dũng trăm năm hạnh phúc, luôn yêu thương và đồng hành bên nhau!',
       createdAt: 'Vừa xong',
     };
 
@@ -76,7 +76,7 @@ export const RsvpWishesSection: React.FC<RsvpWishesSectionProps> = ({
           <FloralDivider className="my-5" />
           <p className="mx-auto max-w-xl text-sm text-taupe sm:text-base">
             Sự hiện diện và những lời chúc phúc của bạn là món quà trân quý nhất đối với
-            Minh Quân &amp; Thảo Linh.
+            Ngọc Lâm &amp; Việt Dũng.
           </p>
         </motion.div>
 
@@ -192,7 +192,7 @@ export const RsvpWishesSection: React.FC<RsvpWishesSectionProps> = ({
                   rows={3}
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  placeholder="Viết vài dòng yêu thương gửi Minh Quân & Thảo Linh..."
+                  placeholder="Viết vài dòng yêu thương gửi Ngọc Lâm & Việt Dũng..."
                   className="w-full resize-none rounded-xl border border-gold/35 bg-champagne/40 px-4 py-2.5 text-sm text-espresso outline-none transition focus:border-burgundy focus:bg-ivory"
                 />
               </div>
